@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0C122C;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.bloques{
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/*parte izquieda*/
+
+.fylo{
+    background-color: #1E2C69;
+    height: 250px;
+    width: 400px;
+    border-radius: 10px 130px 10px 10px;
+}
+
+.logo{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.iconos{
+    margin-top: 30px;  
+    margin-left: 30px;
+    margin-right: 110px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic{
+   background-color: #0A132B;
+   height: 60px;
+   width: 60px;
+   border-radius: 10px;
+}
+.iconos img{
+    height: 26px;
+    margin-right:20px;
+    align-items: center;
+    margin:auto;
+	display:block;
+    margin-top: 15px;
+
+}
+
+/*parte derecha*/
+
+.storage{
+    background-color: #1E2C69;
+    height: 200px;
+    width: 800px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.fraseyboca{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.frase{
+    margin-top: 40px;
+    color: rgb(199, 197, 194);
+}
+
+.bocadillo{
+    margin-top: -50px ;
+    position: relative;
+    border-radius: 10px;
+    height: 90px;
+    width: 220px;
+    background: white;
+    box-shadow: 1px 12px 33px rgba(0, 0, 0, 0.5);
+}
+
+.bocadillo:before{
+    border: 25px solid white;
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    position: absolute;
+    bottom: -36px;
+    left: calc(88.5% - 25px)
+}
+
+.bocadillo p{
+    margin-top: 10px;
+}
+
+.number{
+    font-size: 44px;
+}
+
+.gbleft{
+    font-size: 16px;
+    margin-left: 10px;
+    color:#b1b3b4;  
+}
+
+.barra{
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #0a0d22 ;
+    height: 16px;
+    width: 600px;
+}
+
+.barra2{
+    margin-top: -14px;
+    border-radius: 10px;
+    margin-left: 102px;
+    background-color: #ff8f97 ;
+    height: 13px;
+    width: 489px;
+}
+
+.gb{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#b1b3b4; 
+    display: flex;
+    justify-content: space-between;
+}
